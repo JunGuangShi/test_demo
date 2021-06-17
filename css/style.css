@@ -1,0 +1,135 @@
+/* Start of common layout */
+
+section.scrollable-section {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+}
+
+div.sticky-element {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+div.film-container {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+}
+
+div#interactive-contents h1 {
+    font-size: 45px;
+    font-family: 'Muli', 'Noto Sans SC', sans-serif;
+    font-weight: 800;
+    margin: 20px 0 10px;
+}
+
+div#interactive-contents h2 {
+    font-size: 28px;
+    font-family: 'Muli', 'Noto Sans SC', sans-serif;
+    font-weight: 800;
+    margin: 35px 0 15px;
+}
+
+div#interactive-contents p {
+    font-size: 16px;
+    font-family: 'Muli', 'Noto Sans SC', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.page-end{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.page-end:hover{
+    color: #d9d9d9;
+}
+
+section.scrollable-section:nth-of-type(1) {
+    height: 280vh;
+}
+
+div#sec1-txt1 {
+    box-sizing: content-box;
+    color: white;
+    text-align: right;
+    z-index: 2;
+    position: absolute;
+    width: 90%;
+    top: 35%;
+    margin-right: 10%;
+}
+
+section.scrollable-section:nth-of-type(2) {
+    height: 550vh;
+}
+
+div#sec2-txt1 {
+    box-sizing: content-box;
+    color: white;
+    text-align: right;
+    z-index: 2;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+
+div#sec2-txt1>* {
+    position: relative;
+}
+
+div#sec2-txt2 {
+    color: white;
+    box-sizing: content-box;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+div#sec2-txt2 > * {
+    position: relative;
+}
+
+section.scrollable-section:nth-of-type(3) {
+    height: 450vh;
+}
+
+div#sec3-txt1 {
+    box-sizing: content-box;
+    color: white;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+    top: 38%;
+    left: 20%;
+}
+
+div#sec3-txt1>* {
+    position: relative;
+}
+
+
+section.scrollable-section:nth-of-type(4) {
+    height: 100vh;
+}
+
+div#sec4-txt1 {
+    box-sizing: content-box;
+    color: white;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
+
+div#sec4-txt1>* {
+    position: relative;
+}
